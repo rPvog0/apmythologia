@@ -1,0 +1,162 @@
+/* Fontes */
+
+@font-face {
+    font-family: 'Cinzel-Regular';
+    src: url('../assets/fonts/Cinzel-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Spectral-Regular';
+    src: url('../assests/fonts/Spectral-Regular.ttf'); 
+}
+@font-face{
+    font-family:'GermaniaOne-Regular';
+    src: url('../assets/fonts/GermaniaOne-Regular.ttf');
+}
+
+body {
+    font-family: 'Cinzel-Regular';
+    text-align: center;
+    margin: 0;
+}
+
+.body{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    background-color: black;
+}
+.title-site{
+      background-image: url("../img/pilarbranco.jpg");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+     color: black;
+      padding-top: 300px;
+      padding-bottom:300px;
+      
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#logo {
+    margin: 0;
+}
+
+nav div:nth-child(1) {
+    width: 80%;
+}
+
+nav div:nth-child(2) {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div:nth-child(3) {
+    width: 100%;
+    background-color: black;
+    top: 47px;
+    left: -100%;
+    position: absolute;
+    transition: 0.7s left ease;
+}
+
+.mostrar {
+    left: 0px !important;
+}
+
+nav a {
+    display: block;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h1:hover {
+    color: grey;
+}
+#principal {    
+    background-image: url("../img/backg.jpg");
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      color: white;
+      padding-top: 300px;
+      padding-bottom:300px;
+      font-family: 'Cinzel-Regular';
+      
+    
+}
+
+#principal h1 {
+    text-shadow: #333 3px 3px 3px;
+}
+
+div p a {
+    font-weight: 800;
+}
+
+section {
+    margin: 0 auto;
+}
+
+
+.qqq{
+    font-size: 2em;
+    background-image: url(../img/dsu.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.uuu{
+    font-size: 2em;
+    background-image: url(../img/serberus.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.vvv{
+    font-size: 1.5em;
+    background-image: url(../img/semi.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.tom{
+    margin-left: 10px;
+    margin-right: 10px;
+}
